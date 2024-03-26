@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: #E7E7E7;
+    padding-top: 200px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    justify-content: center;
+}
+
+header h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+form {
+    display: flex;
+    width: 100%;
+    margin-bottom: 56px;
+    justify-content: center;
+}
+
+form input {
+    font-size: 24px;
+    background-color: #fff;
+    padding: 7px;
+    border: solid 1px;
+}
+
+form button {
+    font-size: 24px;
+    padding: 7px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+ul {
+    display: grid ;
+    justify-content: center;
+    cursor: pointer;
+}
